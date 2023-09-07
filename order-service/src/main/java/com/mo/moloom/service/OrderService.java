@@ -23,7 +23,7 @@ public class OrderService {
         // 1.查询订单
         Order order = orderMapper.findById(orderId);
         // 获取user信息
-        User user = restTemplate.getForObject(URL, User.class, order.getUserId());
+        User user = restTemplate.getForObject(URL+order.getUserId(), User.class);
         order.setUser(user);
         return order;
     }
