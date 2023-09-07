@@ -1,0 +1,20 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: user-service
+  datasource:
+    url: jdbc:mysql://localhost:3308/cloud_user?useUnicode=true&characterEncoding=utf-8&allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: mo
+    driver-class-name: com.mysql.cj.jdbc.Driver   #mysql8.0版本以上指定
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.mo.moloom.pojo    #所有entity别名类所在包
+  configuration:
+    map-underscore-to-camel-case: true
+
+#log4j2 配置
+logging:
+  config: classpath:log4j-setting.xml
