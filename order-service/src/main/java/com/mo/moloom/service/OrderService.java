@@ -17,7 +17,7 @@ public class OrderService {
     @Resource
     private RestTemplate restTemplate;
 
-    private static final String URL = "http://localhost:8081/user/";
+    private static final String URL = "http://user-service/user/";
 
     public Order queryOrderById(Long orderId) {
         // 1.查询订单
