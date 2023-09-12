@@ -22,6 +22,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:10000/eureka
 
+
 #log4j2 配置
 logging:
   config: classpath:log4j-setting.xml

@@ -13,6 +13,11 @@ eureka:
     service-url:        #Eureka地址信息
       defaultZone: http://localhost:10000/eureka
 
+ribbon:
+  eager-load:
+    enabled: true       #开启饥饿加载
+    clients: user-service         #指定对user-service这个服务饥饿加载
+
 #log4j2 配置
 logging:
   config: classpath:log4j-setting.xml
