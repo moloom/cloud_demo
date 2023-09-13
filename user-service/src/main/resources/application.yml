@@ -3,6 +3,11 @@ server:
 spring:
   application:
     name: user-service
+  cloud:
+    nacos:
+      server-addr: localhost:8848           #nacos服务地址
+      discovery:
+        cluster-name: HZ            #集群名称
   datasource:
     url: jdbc:mysql://localhost:3308/cloud_user?useUnicode=true&characterEncoding=utf-8&allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=Asia/Shanghai
     username: root
@@ -19,3 +24,5 @@ mybatis:
 #log4j2 配置
 logging:
   config: classpath:log4j-setting.xml
+  level:
+    com.mo.moloom: debug
