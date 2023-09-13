@@ -8,7 +8,6 @@ import org.springframework.context.annotation.Bean;
 
 @MapperScan("com.mo.moloom.mapper")
 @SpringBootApplication
-@EnableEurekaClient
 public class OrderApplication {
     public static void main(String[] args) {
         SpringApplication.run(OrderApplication.class, args);
