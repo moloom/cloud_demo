@@ -1,9 +1,9 @@
 package com.mo.moloom.service;
 
 import com.mo.moloom.clients.UserClient;
+import com.mo.moloom.entities.Order;
+import com.mo.moloom.entities.User;
 import com.mo.moloom.mapper.OrderMapper;
-import com.mo.moloom.pojo.Order;
-import com.mo.moloom.pojo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;

@@ -12,6 +12,7 @@
         <module>order-service</module>
         <module>user-service</module>
         <module>gateway</module>
+        <module>entities-feign</module>
     </modules>
 
     <parent>
@@ -99,5 +100,12 @@
             <version>${lombok.version}</version>
         </dependency>
         <!--log4j2日志           end-->
+
+        <!-- 引入项目的 pojo-feign包 -->
+        <dependency>
+            <groupId>com.mo.moloom</groupId>
+            <artifactId>entities-feign</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 </project>

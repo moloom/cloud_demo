@@ -1,6 +1,6 @@
 package com.mo.moloom.web;
 
-import com.mo.moloom.pojo.User;
+import com.mo.moloom.entities.User;
 import com.mo.moloom.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;

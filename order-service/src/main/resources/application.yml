@@ -13,6 +13,7 @@ spring:
     username: root
     password: mo
     driver-class-name: com.mysql.cj.jdbc.Driver   #mysql8.0版本以上指定
+
 mybatis:
   type-aliases-package: com.mo.moloom.pojo
   configuration:
@@ -27,6 +28,11 @@ feign:
     config:
       user-service: # 针对某个微服务的配置
         loggerLevel: BASIC #  日志级别
+  httpclient:
+    enabled: true # 开启feign对HttpClient的支持
+    max-connections: 200 # 最大的连接数
+    max-connections-per-route: 50 # 每个路径的最大连接数
+
 
 
 #log4j2 配置

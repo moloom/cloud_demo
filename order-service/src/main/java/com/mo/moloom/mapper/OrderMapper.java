@@ -1,6 +1,6 @@
 package com.mo.moloom.mapper;
 
-import com.mo.moloom.pojo.Order;
+import com.mo.moloom.entities.Order;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 

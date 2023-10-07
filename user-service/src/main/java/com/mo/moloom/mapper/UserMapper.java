@@ -1,6 +1,6 @@
 package com.mo.moloom.mapper;
 
-import com.mo.moloom.pojo.User;
+import com.mo.moloom.entities.User;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;

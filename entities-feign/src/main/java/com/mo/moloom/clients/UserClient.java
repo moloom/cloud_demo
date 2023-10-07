@@ -1,6 +1,6 @@
 package com.mo.moloom.clients;
 
-import com.mo.moloom.pojo.User;
+import com.mo.moloom.entities.User;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

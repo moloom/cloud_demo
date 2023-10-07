@@ -1,7 +1,7 @@
 package com.mo.moloom.web;
 
 
-import com.mo.moloom.pojo.Order;
+import com.mo.moloom.entities.Order;
 import com.mo.moloom.service.OrderService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
