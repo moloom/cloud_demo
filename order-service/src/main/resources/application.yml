@@ -37,6 +37,6 @@ feign:
 
 #log4j2 配置
 logging:
-  config: classpath:log4j-setting.xml
+  config: log4j-setting.xml
   level:
     com.mo.moloom: debug

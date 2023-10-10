@@ -23,6 +23,6 @@ mybatis:
 
 #log4j2 配置，该配置已在nacos配置管理中配置
 #logging:
-#  config: classpath:log4j-setting.xml
+#  config: log4j-setting.xml
 #  level:
 #    com.mo.moloom: debug

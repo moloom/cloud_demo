@@ -20,4 +20,4 @@ ribbon:
 
 #log4j2 配置
 logging:
-  config: classpath:log4j-setting.xml
+  config: log4j-setting.xml
