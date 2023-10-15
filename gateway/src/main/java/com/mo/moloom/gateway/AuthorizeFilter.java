@@ -15,7 +15,7 @@ import reactor.core.publisher.Mono;
  * @description @Order定义filter的优先级，值越大优先级越低
  */
 @Order(-1)
-@Component
+//@Component  未生效
 public class AuthorizeFilter implements GlobalFilter {
     /**
      * @param exchange 请求上下文，里面可以获取Request、Response等信息
